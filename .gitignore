@@ -2,6 +2,7 @@ assets/*
 !assets/.gitignore
 
 includes/*
+!includes/.gitignore
 
 protected/runtime/*
 !protected/runtime/.gitignore
