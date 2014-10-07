@@ -1,4 +1,4 @@
-# Yii base app with LDAP and MySQL support
+# Yii base app with LDAP / MySQL support
 
 This is pure, auto-generated Yii 1.x application, the same, as you get after `yiic webapp path`, enhanced to use MySQL- and LDAP-based user authentication.
 
@@ -22,27 +22,27 @@ It changes default application to allow users to login either with e-mail and pa
 
 3. Create `includes/settings.inc` with following contact (modify to suit you):
 
-    <?php
-        /**
-         * Database configuration; used in "/protected/config/main.php", in 'db' key.
-         */
-        $yiihost = 'localhost';
-        $yiiuser = 'user';
-        $yiipass = 'pass';
-        $yiiname = 'name';
-        
-        /**
-         * LDAP configuration; used in "/protected/config/main.php", in 'params' key
-         * and in /protected/components/UserIdentity.php.
-         */
-        $ldapHost = 'ldap.company.com';
-        $ldapDn = 'vd=company.com,o=hosting,dc=company,dc=com';
+        <?php
+            /**
+             * Database configuration; used in "/protected/config/main.php", in 'db' key.
+             */
+            $yiihost = 'localhost';
+            $yiiuser = 'user';
+            $yiipass = 'pass';
+            $yiiname = 'name';
+            
+            /**
+             * LDAP configuration; used in "/protected/config/main.php", in 'params' key
+             * and in /protected/components/UserIdentity.php.
+             */
+            $ldapHost = 'ldap.company.com';
+            $ldapDn = 'vd=company.com,o=hosting,dc=company,dc=com';
 
-        /**
-         * Other configuration; used in "/protected/config/main.php", in 'params' key.
-         */
-        $adminEmail = 'webmaster@company.com';
-    ?>
+            /**
+             * Other configuration; used in "/protected/config/main.php", in 'params' key.
+             */
+            $adminEmail = 'webmaster@company.com';
+        ?>
 
 That should be all. Modify, test, run, enjoy!
 
