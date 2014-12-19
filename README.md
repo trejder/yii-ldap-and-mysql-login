@@ -20,7 +20,7 @@ It changes default application to allow users to login either with e-mail and pa
 
 2. Modify `protected/data/schema.mysql.sql` and import it into your MySQL database or create `users` table add required users in any other way.
 
-3. Create `includes/settings.inc` with following contact (modify to suit you):
+3. Create `includes/settings.inc` with following content (modify to suit you):
 
         <?php
             /**
