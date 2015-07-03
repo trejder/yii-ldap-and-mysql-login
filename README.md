@@ -4,6 +4,8 @@ This is pure, auto-generated Yii 1.x application, the same, as you get after `yi
 
 It changes default application to allow users to login either with e-mail and password stored in local `users` table (in MySQL database) or authenticate with e-mail against given LDAP directory and login only after successful authentication there.
 
+**This project ABANDONED, because I don't code in Yii1 anymore! There is no wiki, issues and no support. There will be no future updates. Unfortunately, you're on your own.**
+
 ## Changes
 
 1. General settings (MySQL and LDAP connection) stored in external `includes/settings.inc` file. Can be changed locally (file is not added to repository) without touching `protected/config/main.php` (see below for details).
@@ -51,3 +53,5 @@ That should be all. Modify, test, run, enjoy!
 Your users can login with either local (MySQL `users` table) or external, LDAP-based credentials.
 
 For security reasons, user **must** exist in `users` table, even if it uses LDAP-based authentication. You only differentiate, whether user is authenticated via MySQL `users` table or LDAP directory by setting (MD5 hashed) password in `password` column or not.
+
+**This project ABANDONED, because I don't code in Yii1 anymore! There is no wiki, issues and no support. There will be no future updates. Unfortunately, you're on your own.**
